@@ -4,25 +4,29 @@
 
 # 作者信息
 author:
-  name: 坚白石
   email: shanatos@163.com
-  link:
-  weibo:
-  github:
+  github: wintergl
 
 url: http://shanatos.com # 我的域名
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
-
+category_map: {
+  "生活":"a",
+  "读书":"b",
+  "技术":"c",
+  "碎碎念":"d",
+  "参考":"e"
+}
 # 站点信息
-title: 未曾顿悟已经年
-language:
-timezone:
-rss_url: /pages/atom.xml
+title: 知行合一
+language: zh-CN
+#rss_url: /atom.xml
 
-theme: jacman
-
+theme: wixo
+#设置自动压缩css
+stylus:
+  compress: true
 
 deploy:
   type: git
