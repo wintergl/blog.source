@@ -1,0 +1,30 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# 作者信息
+author:
+  name: 坚白石
+  email: shanatos@163.com
+  link:
+  weibo:
+  github:
+
+url: http://shanatos.com # 我的域名
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# 站点信息
+title: 未曾顿悟已经年
+language:
+timezone:
+rss_url: /pages/atom.xml
+
+theme: jacman
+
+
+deploy:
+  type: git
+  repo: https://github.com/wintergl/wintergl.github.io.git
+  branch: master
