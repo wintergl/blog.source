@@ -57,12 +57,13 @@ body {
 .page{
   margin: 1.0em 0em;
   padding-top: 25px;
-  line-height: 1.5em;
+  line-height: 25px;
   font-family: 'Open Sans',"Helvetica Neue", "Helvetica","Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 
 .page p{
   margin: 1.0em 0em;
+  font-size: 16px;
 }
 
 .page .panel-heading {
@@ -75,6 +76,10 @@ body {
   background-color: #F5F5D5;
   font-size: 16px;
   line-height: 24px;
+}
+
+.page ul li{
+  font-size : 16px;
 }
 
 .note {
@@ -249,10 +254,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h2{
-  margin: 0.83em 0;
-  color: green;
+  margin: 0.50em 0;
   border-bottom: 2px #ccc solid;
-  padding-top: 40px;
+  padding-top: 10px;
   margin-top: -45px;
 }
 
