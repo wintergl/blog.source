@@ -1,0 +1,33 @@
+# Header
+navbar_brand: false
+menu:
+  首页: index.html
+  归档文章: archives/
+rss: /atom.xml
+
+# Content
+excerpt_link: 查看全文
+fancybox: false
+
+# Sidebar
+widgets:
+- about         # See also: `about_content`
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+about_widget_content: >
+  <p>一个没有脱离低级趣味的人，一只程序猿，喜欢读书，喜欢玩游戏</p>
+
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+
+# Miscellaneous
+google_analytics:
+favicon:
+twitter_id:
+google_plus:
+fb_admins:
+fb_app_id:

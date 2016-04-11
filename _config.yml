@@ -19,11 +19,11 @@ category_map: {
   "参考":"e"
 }
 # 站点信息
-title: 知行合一
+title: 韩帅-知行合一
 language: zh-CN
 #rss_url: /atom.xml
 
-theme: wixo
+theme: bootstrap
 #设置自动压缩css
 stylus:
   compress: true

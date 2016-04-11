@@ -3,8 +3,10 @@ date: 2015-11-4 20:00:29
 tags: [code, java]
 categories: 参考
 toc: true
+layout: no_side_bar
 ---
 参考commons-lang包中的StringUtils, 可以对我们日常的开发工作有所帮助
+<!-- more -->
 ### 空字符串检查
 ```java
 StringUtils.isBlank(testString)

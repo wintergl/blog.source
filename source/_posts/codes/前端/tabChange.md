@@ -3,8 +3,10 @@ date: 2015-11-4 20:00:29
 tags: [code, css, html]
 categories: 参考
 toc: true
+layout: no_side_bar
 ---
-
+标签切换页面代码
+<!-- more -->
 ### CSS代码
 ```css
 .co-tab{
